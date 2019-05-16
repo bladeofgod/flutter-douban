@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:flutter/services.dart';
+import 'page/splash_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget{
         theme: ThemeData(backgroundColor: Colors.white),
         home: Scaffold(
           resizeToAvoidBottomPadding: false,
-          body: ,
+          body: SplashPage(),
         ),
       ),
     );

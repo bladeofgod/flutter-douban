@@ -15,6 +15,12 @@ class ContainerPage extends StatefulWidget{
 
 }
 
+class _Item {
+  String name, activeIcon, normalIcon;
+
+  _Item(this.name, this.activeIcon, this.normalIcon);
+}
+
 class ContainerPageState extends State<ContainerPage> {
   @override
   Widget build(BuildContext context) {
@@ -22,3 +28,21 @@ class ContainerPageState extends State<ContainerPage> {
     return null;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
